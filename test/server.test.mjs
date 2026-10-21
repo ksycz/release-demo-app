@@ -11,5 +11,5 @@ test("healthBody includes ok status and version from env", () => {
 test("homeHtml exposes version for smoke tests", () => {
   const html = homeHtml();
   assert.match(html, /data-testid="app-version"/);
-  assert.match(html, /<h1>Release Demo<\/h1>/);
+  assert.match(html, /<h1>Release Demo – KV<\/h1>/);
 });
