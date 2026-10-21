@@ -11,11 +11,11 @@ export function homeHtml() {
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <title>Release Demo</title>
+    <title>Release Demo – KV</title>
   </head>
   <body>
     <main>
-      <h1>Release Demo</h1>
+      <h1>Release Demo – KV</h1>
       <p>Version: <span data-testid="app-version">${version}</span></p>
     </main>
   </body>
